@@ -1,5 +1,21 @@
 # 目录
-- [Cisco ISE](#Cisco ISE)
+- [Before upgrade](#BeforeUpgrade)
+- [After upgrade](#[AfterUpgrade)
+- [Cisco ISE](#CiscoISE)
+- [Cisco PI](#CiscoPI)
+- [Cisco ASA](#CiscoASA)
+- [Cisco ASA with firepower](#CiscoASAwithFirepower)
+- [Palo Alto Firewall](#PaloAltoFirewall)
+- [Check Point Firewall](#CheckPointFirewall)
+- [FortiGate Firewall](#FortiGateFirewall)
+- [Forti Analyzer](#FortiAnalyzer)
+- [H3C Router](#H3CRouter)
+- [H3C Switch](#H3CSwitch)
+- [Huawei router](#HuaweiRouter)
+- [Huawei USG firewall](#HuaweiUSGfirewall)
+- [Cisco Switch](#CiscoSwitch)
+- [Cisco Router](#CiscoRouter)
+- [問題合集](#問題合集)
 
 
 
@@ -7,7 +23,7 @@
 
 
 
-# Before upgrade
+# BeforeUpgrade
 
 1. 與客戶確認 **設備信息**、**目前版本**、**升級版本**、**升級目的**，檢查官方的upgrade path
 
@@ -47,7 +63,7 @@
 
 ---
 
-# After upgrade
+# AfterUpgrade
 
 1. 基本檢查
 
@@ -71,7 +87,7 @@
 
 
 
-# Cisco ISE
+# CiscoISE
 
 1. 首先，進入Cisco ISE Web GUI界面，查看系統版本。
 
@@ -183,7 +199,7 @@ application upgrade PI-Upgrade-36x_37x_to_3.8.0.0.310.tar.gz sftp
 
 ---
 
-# Cisco ASA
+# CiscoASA
 
 ``` command
 show version
@@ -262,7 +278,7 @@ downgrade flash:/asa9-22-2-14-smp-k8.bin flash:/
 
 ---
 
-# Cisco ASA with firepower
+# CiscoASAwithFirepower
 
 ``` txt
 查看版本
@@ -300,7 +316,7 @@ upgrade完
 
 ---
 
-# Palo Alto Firewall
+# PaloAltoFirewall
 
 1. 查看版本
 
@@ -338,7 +354,7 @@ upgrade完
 
 ---
 
-# Check Point Firewall
+# CheckPointFirewall
 
 ``` txt
 查看版本（show version all）
@@ -392,7 +408,7 @@ upgrade完成後檢查
 
 ---
 
-# FortiGate firewall
+# FortiGateFirewall
 
 ``` txt
 查看DHCP分配的IP
@@ -440,7 +456,7 @@ upgrade完成
 
 ---
 
-# Forti Analyzer
+# FortiAnalyzer
 
 ``` txt
 查看version
@@ -476,7 +492,7 @@ upgrade
 
 ---
 
-# H3C router
+# H3CRouter
 
 ``` txt
 show version
@@ -503,7 +519,7 @@ boot-loader file flash:/VSR1000-X64.ipe main
 
 ---
 
-# H3C Switch
+# H3CSwitch
 
 ``` txt
 show version
@@ -517,7 +533,7 @@ show version
 
 ---
 
-# Huawei router
+# HuaweiRouter
 
 ``` txt
 检查版本 display version
@@ -570,7 +586,7 @@ save
 
 ---
 
-# Huawei USG firewall
+# HuaweiUSGfirewall
 
 ``` txt
 display version
@@ -602,7 +618,7 @@ display version
 
 ---
 
-# Cisco Switch
+# CiscoSwitch
 
 ``` command
 show version
@@ -625,7 +641,7 @@ show version
 
 ---
 
-# Cisco Router
+# CiscoRouter
 
 ``` txt
 show version
@@ -778,6 +794,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
