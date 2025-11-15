@@ -1,3 +1,12 @@
+# 目录
+- [Cisco ISE](#CiscoISE)
+
+
+
+
+
+
+
 # Before upgrade
 
 1. 與客戶確認 **設備信息**、**目前版本**、**升級版本**、**升級目的**，檢查官方的upgrade path
@@ -62,7 +71,7 @@
 
 
 
-# Cisco ISE
+# CiscoISE
 
 1. 首先，進入Cisco ISE Web GUI界面，查看系統版本。
 
@@ -114,7 +123,7 @@
 
 ---
 
-# Cisco PI
+# CiscoPI
 
 ## Web GUI approach
 
@@ -769,6 +778,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
