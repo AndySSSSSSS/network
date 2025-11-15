@@ -66,8 +66,7 @@
 
 1. 首先，進入Cisco ISE Web GUI界面，查看系統版本。
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009183200701.png" alt="image-20251009183200701" style="zoom: 40%;" />
-<img src="../Upgradeimage/image-20251009183200701.png" width="800">
+<img src="../image/image-20251009183200701.png" width="800">
 
 
 2. 備份ISE和Software準備
@@ -80,38 +79,38 @@
 
    - 確認有效的 ISE 升級路徑（Administration > System > Maintenance > Repository）
   
-     <img src="../Upgradeimage/image-20251010183246658.png" width="800">
+     <img src="../image/image-20251010183246658.png" width="800">
   
-     <img src="../Upgradeimage/image-20251010183610878.png" width="800">
+     <img src="../image/image-20251010183610878.png" width="800">
   
-     <img src="../Upgradeimage/image-20251010183516663.png" width="800">
+     <img src="../image/image-20251010183516663.png" width="800">
 
    - 確認更新的版本並下載
 
-     <img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009190821082.png" alt="image-20251009190821082" style="zoom:30%;" />
+     <img src="../image/image-20251009190821082.png" width="800">
 
 3. 查看 ISE 升級指南和發行說明（http://cisco.com/go/ise）
 
-   <img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009184345827.png" alt="image-20251009184345827" style="zoom:30%;" />
+   <img src="../image/image-20251009184345827.png" width="800">
 
 4. 點擊左上角Menu -> Administration -> Upgrade。
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009183704225.png" alt="image-20251009183704225" style="zoom:30%;" />
+<img src="../image/image-20251009183704225.png" width="800">
 
 3. 根據提示逐步點擊。
 
-   <img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009183921295.png" alt="image-20251009183921295" style="zoom:33%;" />
+   <img src="../image/image-20251009183921295.png" width="800">
 
-   <img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009183936286.png" alt="image-20251009183936286" style="zoom:33%;" />
+   <img src="../image/image-20251009183936286.png" width="800">
 
-   ![image-20251011140848563](C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251011140848563.png)
+   <img src="../image/image-20251011140848563.png" width="800">
    
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251011141024925.png" alt="image-20251011141024925" style="zoom: 33%;" />
+<img src="../image/image-20251011141024925.png" width="800">
 
 4. 升級完成後查看系統版本，然後再進行相關檢查。
 
-   <img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251011175907551.png" alt="image-20251011175907551" style="zoom:50%;" />
+   <img src="../image/image-20251011175907551.png" width="800">
 
 ---
 
@@ -769,6 +768,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
