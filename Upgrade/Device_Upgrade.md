@@ -401,36 +401,31 @@ end
 然后进入后台界面，查看version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251105214703687.png" alt="image-20251105214703687" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251105214703687.png" width="800">
 
 ```txt
 upgrade path https://docs.fortinet.com/upgrade-tool/fortigate
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251105215003810.png" alt="image-20251105215003810" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251105215003810.png" width="800">
 
 ``` txt
 backup
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251105214824742.png" alt="image-20251105214824742" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251105214824742.png" width="800">
 
 ``` txt
 upgrade
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251105214307012.png" alt="image-20251105214307012" style="zoom: 33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251105214307012.png" width="800">
 
 ``` txt
 upgrade完成
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251105215304331.png" alt="image-20251105215304331" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251105215304331.png" width="800">
 
 
 
@@ -442,36 +437,31 @@ upgrade完成
 查看version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251106095726667.png" alt="image-20251106095726667" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251106095726667.png" width="800">
 
 ``` txt
 upgrade path https://docs.fortinet.com/upgrade-tool/fortianalyzer
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251105215740785.png" alt="image-20251105215740785" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251105215740785.png" width="800">
 
 ``` txt
 backup
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251106100203543.png" alt="image-20251106100203543" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251106100203543.png" width="800">
 
 ``` txt
 upgrade
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251106100415315.png" alt="image-20251106100415315" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251106100415315.png" width="800">
 
 ``` txt
 由于没有有效的合约，不能进行升级
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251106100516556.png" alt="image-20251106100516556" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251106100516556.png" width="800">
 
 
 
@@ -483,16 +473,14 @@ upgrade
 show version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251115100313817.png" alt="image-20251115100313817" style="zoom:50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251115100313817.png" width="800">
 
 ``` txt
 升级前备份系统运行文件
 boot-loader file boot flash:/VSR1000-CMW710-BOOT-R1340P16-X64.bin system flash:/VSR1000-CMW710-SYSTEM-R1340P16-X64.bin backup
 ```
 
-![image-20251115102259366](C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251115102259366.png)
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251115102259366.png" width="800">
 
 ``` txt
 因為沒有H3C的權限下載firmware文件，所以還是使用原來的firmware文件作為實驗upgrade file。
@@ -500,8 +488,7 @@ boot-loader file boot flash:/VSR1000-CMW710-BOOT-R1340P16-X64.bin system flash:/
 boot-loader file flash:/VSR1000-X64.ipe main
 ```
 
-![image-20251115110003375](C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251115110003375.png)
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251115110003375.png" width="800">
 
 
 
@@ -513,8 +500,7 @@ boot-loader file flash:/VSR1000-X64.ipe main
 show version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251115120847285.png" alt="image-20251115120847285" style="zoom: 50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251115120847285.png" width="800">
 
 
 
@@ -528,15 +514,13 @@ show version
 检查版本 display version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251110182308609.png" alt="image-20251110182308609" style="zoom:50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251110182308609.png" width="800">
 
 ``` txt
 查看升级指南
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251112180035272.png" alt="image-20251112180035272" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251112180035272.png" width="800">
 
 ``` txt
 配置FTP(AR1000v)
@@ -561,21 +545,17 @@ startup system-software flash:/AR1000V_V300R022C00SPC100.cc
 save
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251110183719511.png" alt="image-20251110183719511" style="zoom:50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251110183719511.png" width="800">
 
 ``` txt
 升级完成
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251110184114255.png" alt="image-20251110184114255" style="zoom:50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251110184114255.png" width="800">
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251110184235794.png" alt="image-20251110184235794" style="zoom:50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251110184235794.png" width="800">
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251110184404535.png" alt="image-20251110184404535" style="zoom: 50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251110184404535.png" width="800">
 
 
 
@@ -587,29 +567,25 @@ save
 display version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251110202821600.png" alt="image-20251110202821600" style="zoom: 67%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251110202821600.png" width="800">
 
 ``` txt
 查看升级指南
 ```
 
-![image-20251114175736845](C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251114175736845.png)
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251114175736845.png" width="800">
 
 ``` txt
 华为support拒绝了我需要的firmware，因此我将使用虚拟机原有的firmware当作升级版本。
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251114175901782.png" alt="image-20251114175901782" style="zoom:50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251114175901782.png" width="800">
 
 ``` txt
 升级步骤完成
 ```
 
-![image-20251114180504895](C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251114180504895.png)
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251114180504895.png" width="800">
 
 
 
@@ -623,23 +599,20 @@ display version
 show version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251103174153444.png" alt="image-20251103174153444" style="zoom: 50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251103174153444.png" width="800">
 
 ``` commads
 copy usbflash0:cat9k_lite_iosxe.17.12.05.SPA.bin flash:
 install add file flash:cat9k_lite_iosxe.17.12.05.SPA.bin activate commit prompt-level none
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251103174305323.png" alt="image-20251103174305323" style="zoom:33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251103174305323.png" width="800">
 
 ```command
 show version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251103174449084.png" alt="image-20251103174449084" style="zoom: 50%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251103174449084.png" width="800">
 
 ---
 
@@ -649,37 +622,32 @@ show version
 show version
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251029152801765.png" alt="image-20251029152801765" style="zoom: 67%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251029152801765.png" width="800">
 
 ``` txt
 Upgrade Guide
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251029152937168.png" alt="image-20251029152937168" style="zoom: 33%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251029152937168.png" width="800">
 
 ``` txt
 #下載firmware
 copy scp://andy:1@192.168.118.128/Downloads/c8000v-universalk9.17.15.03a.SPA.bin flash:/
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251029152616754.png" alt="image-20251029152616754" style="zoom: 67%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251029152616754.png" width="800">
 
 ``` txt
 install add file flash:c8000v-universalk9.17.15.03a.SPA.bin activate commit prompt-level none
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251029153335842.png" alt="image-20251029153335842" style="zoom: 67%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251029153335842.png" width="800">
 
 ``` txt
 升級完成檢查
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251029153813580.png" alt="image-20251029153813580" style="zoom: 67%;" />
-<img src="../image/image-20251011175907551.png" width="800">
+<img src="../image/image-20251029153813580.png" width="800">
 
 
 
@@ -801,6 +769,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
