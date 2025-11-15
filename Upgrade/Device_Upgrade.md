@@ -67,7 +67,8 @@
 1. 首先，進入Cisco ISE Web GUI界面，查看系統版本。
 
 <img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251009183200701.png" alt="image-20251009183200701" style="zoom: 40%;" />
-![image-20251009183200701](../image/image-20251009183200701.png)
+<img src="../image/image-20251029153813580.png" width="400">
+
 
 2. 備份ISE和Software準備
 
@@ -768,5 +769,6 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
