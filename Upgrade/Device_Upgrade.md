@@ -748,7 +748,7 @@ df -h /
 我的解决方法是直接把磁盘的容量由100G增加到200G。這個空間是不能手動分配的。
 ```
 
-<img src="C:\Users\andys\AppData\Roaming\Typora\typora-user-images\image-20251103224135165.png" alt="image-20251103224135165" style="zoom: 33%;" />
+<img src="../image/image-20251103224135165.png" width="800">
 
 6. EVE中建立可上网的Cloud与window连接
 
@@ -791,6 +791,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
