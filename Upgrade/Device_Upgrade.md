@@ -526,10 +526,7 @@ show version
 ```
 
 <img src="../image/image-20251115120847285.png" width="800">
-
-
-
-
+同上H3C router
 
 ---
 
@@ -794,6 +791,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
