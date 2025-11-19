@@ -12,6 +12,7 @@
 - [H3C Router](#H3CRouter)
 - [H3C Switch](#H3CSwitch)
 - [Huawei router](#HuaweiRouter)
+- - [Huawei router](#HuaweiSwitch)
 - [Huawei USG firewall](#HuaweiUSGfirewall)
 - [Cisco Switch](#CiscoSwitch)
 - [Cisco Router](#CiscoRouter)
@@ -849,6 +850,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
