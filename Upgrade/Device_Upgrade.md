@@ -583,6 +583,64 @@ save
 
 ---
 
+# HuaweiSwitch
+
+``` txt
+display version
+display startup
+```
+
+<img src="../image/202511191833.jpg" width="800">
+
+
+
+``` txt
+建立ftp server
+install feature-software WEAKEA
+vlan 10
+interface Vlanif10
+ip address 10.10.10.1 255.255.255.0
+quit
+interface MultiGE 1/0/1
+port link-type access
+port default vlan 10
+quit
+ftp server enable
+aaa
+local-user admin1234 password irreversible-cipher P@ssw0rd!@#
+local-user admin1234 privilege level 15
+local-user admin1234 service-type ftp
+local-user admin1234 ftp-directory flash:/
+user-interface vty 0 4
+authentication-mode aaa
+protocol inbound all
+quit
+ftp server-source -i Vlanif10
+q
+save
+y
+```
+
+
+<img src="../image/202511191832.jpg" width="800">
+
+
+``` txt
+升級指令
+```
+
+<img src="../image/202511191831.jpg" width="800">
+
+``` txt
+reboot後檢查
+```
+
+
+<img src="../image/202511191834.jpg" width="800">
+
+
+---
+
 # HuaweiUSGfirewall
 
 ``` txt
@@ -791,6 +849,7 @@ gateway 192.168.1.1
 
 ``` txt
 ```
+
 
 
 
