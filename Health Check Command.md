@@ -63,5 +63,5 @@ https://www.cisco.com/c/zh_tw/support/docs/ios-nx-os-software/nx-os-software/217
 | dis logb            | display logbuffer             | 检测异常日志  |
 | dis cpu-u           | display cpu-usage             | 检查CPU使用率 |
 | dis memory          | display memory                | 检查RAM使用率 |
-
 | dis device manuinfo |                               |               |
+
