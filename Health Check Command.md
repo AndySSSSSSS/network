@@ -21,11 +21,12 @@ Catalyst 9000系列 https://www.cisco.com/c/zh_tw/support/docs/switches/catalyst
 | --------------------------- | ------------------------------------------------------------ |
 | 检查软件包                  | display startup                                              |
 | License信息                 | display license                                              |
+| SN number                  | display device esn                                            |
 | 检查补丁信息                | display patch-information                                    |
 | 检查系统时间                | display clock                                                |
 | 检查配置正确性              | display current-configuration                                |
 | 运行状态                    | display device                                               |
-| 风扇状态                    | display fan                                                  |
+| 风扇状态                    | display fan<br />display device fan                                                |
 | 电源状态                    | display power                                                |
 | 告警信息                    | display alarm all                                            |
 | CPU状态                     | display cpu-usage                                            |
@@ -62,4 +63,5 @@ https://www.cisco.com/c/zh_tw/support/docs/ios-nx-os-software/nx-os-software/217
 | dis logb            | display logbuffer             | 检测异常日志  |
 | dis cpu-u           | display cpu-usage             | 检查CPU使用率 |
 | dis memory          | display memory                | 检查RAM使用率 |
+
 | dis device manuinfo |                               |               |
